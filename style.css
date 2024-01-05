@@ -27,7 +27,8 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.task, .task-label {
+.task, 
+.task-label {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -35,17 +36,22 @@
 .task-wrapper {
   display: flex;
 }
-#todo-tasks, #completed-tasks {
+#todo-tasks, 
+#completed-tasks {
   margin:0;
   padding: 0px;
 }
-.todo-list, .title {
+.todo-list, 
+.title {
   list-style:none;
 }
-input,button{
+input,
+button{
   outline:none;
 }
-.add, .edit, .delete {
+.add, 
+.edit, 
+.delete {
   background: none;
   border: 0px;
   color: #888;
